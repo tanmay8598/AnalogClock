@@ -1,0 +1,44 @@
+.clock-container {
+  height: 40vw;
+  width: 40vw;
+  /* height: 440px;
+  width: 440px; */
+
+  position: relative;
+  margin: auto;
+  background: url(clock.png) no-repeat;
+  background-size: 100%;
+}
+
+.hr-hand,
+.min-hand,
+.sec-hand {
+  position: absolute;
+  border-radius: 40%;
+  background-color: black;
+  transform-origin: bottom;
+  opacity: 0.8;
+}
+
+.hr-hand {
+  height: 25%;
+  width: 1.6%;
+  top: 24%;
+  left: 49.1%;
+  /* display: none; */
+}
+
+.min-hand {
+  height: 29%;
+  width: 1.4%;
+  top: 20%;
+  left: 49.3%;
+}
+
+.sec-hand {
+  height: 36%;
+  width: 1%;
+  top: 13%;
+  left: 49.3%;
+  /* display: none; */
+}
